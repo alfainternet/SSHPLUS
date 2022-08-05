@@ -1,8 +1,8 @@
-# BEM VINDO 🖕
+# BEM VINDO 😃 
 
 # SSH-PLUS
 
-# @ALFAINTERNET
+# @DanielMTX
 
 *PROJETO EM ANDAMENTO...
 
@@ -17,6 +17,6 @@ Só joga na máquina e deixar instalar
 
 • instala recursos e o script
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/alfainternet/SSHPLUS/master/ssh-plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Danielxyzd/CRACKERX2/master/ssh-plus)
 
 ```
