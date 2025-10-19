@@ -1,7 +1,5 @@
 #!/bin/bash
-#====================================================
-#	@kiritosshxd
-#====================================================
+#================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/alfainternet/SSHPLUS/master/Modulos/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
