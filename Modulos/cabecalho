@@ -1,3 +1,2 @@
-z="
-";Bz='r';Az='clea';
-eval "$Az$Bz"
+#!/bin/bash
+clear
