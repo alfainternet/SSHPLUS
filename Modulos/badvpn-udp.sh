@@ -1,3 +1,0 @@
-z="
-";fz='1000';dz='-for';cz='ions';Kz='badv';az='-con';ez='ent ';Tz=':$po';bz='nect';Nz=' --l';Xz='ents';Gz='& po';Wz='-cli';Az='port';Vz='-max';Yz=' 100';Bz='=$1';Iz='7300';kz='1';Zz='00 -';iz='null';Uz='rt -';Lz='pn-u';Pz='n-ad';hz='dev/';Hz='rt="';Oz='iste';jz=' 2>&';Rz='27.0';Qz='dr 1';Sz='.0.1';gz=' > /';Dz='z $p';Cz='[[ -';Fz=']] &';Ez='ort ';Jz='"';Mz='dpgw';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$z$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$Vz$az$bz$cz$dz$Wz$ez$fz$gz$hz$iz$jz$kz"
