@@ -1,0 +1,23 @@
+#!/bin/bash
+clear
+echo -e "\033[1;32mDESEJA DESISTALAR O SSHPLUS MANAGER\033[1;33m"
+read -p "Deseja Remover? [s/n] " resp
+if [[ "$resp" = s || "$resp" = S ]];then
+    apt-get purge screen -y > /dev/null 2>&1
+    apt-get purge nmap -y > /dev/null 2>&1
+    apt-get purge figlet -y > /dev/null 2>&1
+    apt-get purge squid -y > /dev/null 2>&1
+    apt-get purge squid3 -y > /dev/null 2>&1
+    apt-get purge dropbear -y > /dev/null 2>&1
+    apt-get purge apache2 -y > /dev/null 2>&1
+    rm /bin/Plus /bin/EasyRSA-3.0.1.tgz /bin/ShellBot.sh /bin/WebSocket.zip /bin/addhost /bin/ajuda /bin/alterarlimite /bin/alterarsenha /bin/attscript /bin/autodns /bin/badvpn /bin/badvpn-tun2socks /bin/badvpn-udp.sh /bin/badvpn-udpgw /bin/badvpn.sh /bin/banner /bin/blockt /bin/bot /bin/botssh /bin/botteste.sh /bin/cabecalho /bin/cert /bin/checkuser.py /bin/chuker.sh /bin/conexao /bin/criarteste /bin/criarusuario /bin/delhost /bin/delscript /bin/detalhes /bin/dns /bin/dns-server /bin/dnsserv /bin/dnstt-install /bin/dnstt-installer.sh /bin/dnstt-manager /bin/expcleaner /bin/htop /bin/infousers /bin/initcheck /bin/inst-botteste /bin/install /bin/install_slow /bin/instsqd /bin/jq-linux64 /bin/key /bin/licence /bin/limiter /bin/list /bin/menu /bin/menu_check /bin/mhtop /bin/mudardata /bin/open.py /bin/otimizar /bin/pkill.sh /bin/proxyd /bin/proxydt.1 /bin/proxydt.2 /bin/proxydtv1 /bin/proxydtv2 /bin/proxyrust /bin/rc.local /bin/reiniciarservicos /bin/reiniciarsistema /bin/remove-slow /bin/remover /bin/senharoot /bin/server.key /bin/server.pub /bin/slowdns /bin/slowdns-drop /bin/slowdns-info /bin/slowdns-socks /bin/slowdns-ssh /bin/slowdns-ssl /bin/speedtest /bin/restartdns /bin/sshd_config /bin/sshmonitor /bin/startdns /bin/stopdns /bin/stunnel /bin/stunnel.pem /bin/stunnel2 /bin/swapmemory /bin/tcptweaker.sh /bin/udp /bin/uexpired /bin/uncompress /bin/update /bin/userbackup /bin/v2ray /bin/v2raymanager /bin/verifbot /bin/versao /bin/wsmenu /bin/wsproxy.py /bin/wssecury.sh.1 > /dev/null 2>&1
+    rm -rf /etc/SSHPlus > /dev/null 2>&1
+    clear
+    echo -e "\033[1;36mObrigado por utilizar o SSHPLUS MANAGER\033[1;33m"
+    sleep 2
+    cat /dev/null > ~/.bash_history && history -c && exit 0
+else
+    echo -e "\033[1;32mOk retornando ao menu\033[1;33m"
+    sleep 3
+    menu
+fi

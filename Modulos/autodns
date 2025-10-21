@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+# Firewall slowdns for sshplus
+interface=$(ip route show default | awk '{print $5}' | head -n 1)
+iptables -C INPUT -p udp --dport 5300 -j ACCEPT 2>/dev/null || iptables -I INPUT -p udp --dport 5300 -j ACCEPT
+iptables -C -t nat PREROUTING -i "$interface" -p udp --dport 53 -j REDIRECT --to-ports 5300 2>/dev/null || iptables -t nat -I PREROUTING -i "$interface" -p udp --dport 53 -j REDIRECT --to-ports 5300
