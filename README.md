@@ -16,7 +16,7 @@
 ## :hammer_and_wrench: Requisitos 
 
 - Sistema Operativo: Linux (Ubuntu o Debian)
-- Versiones Recomendadas: Ubuntu 18.04 Server x86_64 / Ubuntu 24.04 Server x86_64 / Debian 11 Server x86_64
+- Versiones Recomendadas: Ubuntu 20.04, 22.04, 24.04 Server x86_64 / Debian 12 +...
 
 - Sistema aarch64 será instalado o sshplus do Kirito
 
