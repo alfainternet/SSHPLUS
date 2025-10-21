@@ -18,7 +18,7 @@
 - Sistema Operativo: Linux (Ubuntu o Debian)
 - Versiones Recomendadas: Ubuntu 20.04, 22.04, 24.04 Server x86_64 / Debian 12 +...
 
-- Sistema aarch64 será instalado o sshplus do Kirito
+- Sistema aarch64 será instalado o sshplus do Kirito : https://github.com/kiritosshxd/SSHPLUS
 
 
 # Modo de instalação
