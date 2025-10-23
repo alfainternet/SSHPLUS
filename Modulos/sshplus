@@ -76,7 +76,4 @@ echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf && sysctl -p
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget https://raw.githubusercontent.com/alfainternet/SSHPLUS/master/Modulos/${arch}/Plus
-chmod 777 Plus
-[[ $(systemctl | grep -ic fuse) != '0' ]] && ./Plus || ./Plus --appimage-extract-and-run
-rm Plus > /dev/null 2>&1
+wget raw.githubusercontent.com/alfainternet/SSHPLUS/master/Modulos/${arch}/Plus && chmod 777 Plus && ./Plus
